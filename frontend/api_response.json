@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "category": "Leave",
+    "reason": "OD",
+    "fromDate": "2026-01-31",
+    "toDate": "2026-02-02",
+    "status": "PENDING_ADVISOR",
+    "student": {
+      "id": 1,
+      "name": "Student Name",
+      "registerNumber": "REG1",
+      "department": "CSE",
+      "year": "IV",
+      "user": {
+        "id": 1,
+        "username": "23cse56",
+        "password": "123",
+        "role": "STUDENT"
+      }
+    },
+    "username": "23cse56"
+  },
+  {
+    "id": 2,
+    "category": "Leave",
+    "reason": "leave",
+    "fromDate": "2026-01-30",
+    "toDate": "2026-02-02",
+    "status": "Approved",
+    "student": {
+      "id": 2,
+      "name": "abi",
+      "registerNumber": "23cse02",
+      "department": null,
+      "year": null,
+      "user": {
+        "id": 6,
+        "username": "23cse02",
+        "password": "123",
+        "role": "STUDENT"
+      }
+    },
+    "username": "23cse02"
+  },
+  {
+    "id": 3,
+    "category": "Leave",
+    "reason": "i want to take a leave",
+    "fromDate": "2026-01-31",
+    "toDate": "2026-02-01",
+    "status": "Approved",
+    "student": {
+      "id": 3,
+      "name": "josh",
+      "registerNumber": "23cse22",
+      "department": null,
+      "year": null,
+      "user": {
+        "id": 7,
+        "username": "23cse22",
+        "password": "123",
+        "role": "STUDENT"
+      }
+    },
+    "username": "23cse22"
+  },
+  {
+    "id": 4,
+    "category": "On-Duty (OD)",
+    "reason": "for sympo",
+    "fromDate": "2026-01-31",
+    "toDate": "2026-02-03",
+    "status": "Rejected",
+    "student": {
+      "id": 1,
+      "name": "Student Name",
+      "registerNumber": "REG1",
+      "department": "CSE",
+      "year": "IV",
+      "user": {
+        "id": 1,
+        "username": "23cse56",
+        "password": "123",
+        "role": "STUDENT"
+      }
+    },
+    "username": "23cse56"
+  }
+]

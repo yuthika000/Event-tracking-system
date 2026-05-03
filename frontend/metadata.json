@@ -1,0 +1,8 @@
+
+{
+  "name": "Student Event Tracker",
+  "description": "A comprehensive digital workflow for college event permissions, leave requests, and OD tracking with multi-level approval stages.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
