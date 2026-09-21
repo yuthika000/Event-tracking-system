@@ -207,7 +207,7 @@ const AuthForm: React.FC<Props> = ({ role, onAuthSuccess, onBack }) => {
                   required
                   type="text"
                   className="w-full pl-10 pr-4 py-3 bg-slate-50 border border-slate-200 rounded-xl focus:ring-2 focus:ring-indigo-500 outline-none transition-all"
-                  placeholder="e.g. 21CS101"
+                  placeholder="e.g. 23CSE01"
                   value={formData.rollNumber}
                   onChange={e => setFormData({ ...formData, rollNumber: e.target.value })}
                 />
