@@ -1,0 +1,20 @@
+services:
+  backend:
+    build:
+      context: ./demo/demo
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    environment:
+      - SPRING_DATA_MONGODB_URI=mongodb+srv://msyuthika0_db_user:Yuthika%402005@hackathon.64pgedc.mongodb.net/event_tracker?appName=hackathon
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+    restart: unless-stopped
