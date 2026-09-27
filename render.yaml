@@ -9,4 +9,4 @@ services:
     healthCheckPath: /
     envVars:
       - key: SPRING_DATA_MONGODB_URI
-        generateValue: true # Or provide it in the Render dashboard manually
+        value: mongodb+srv://msyuthika0_db_user:Yuthika%402005@hackathon.64pgedc.mongodb.net/event_tracker?appName=hackathon
