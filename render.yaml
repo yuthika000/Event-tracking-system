@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: event-tracking-backend
+    env: docker
+    rootDir: demo/demo
+    dockerfilePath: Dockerfile
+    # Render Free tier might take some time to boot, but it will work
+    plan: free
+    healthCheckPath: /
+    envVars:
+      - key: SPRING_DATA_MONGODB_URI
+        generateValue: true # Or provide it in the Render dashboard manually
